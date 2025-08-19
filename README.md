@@ -4,8 +4,8 @@ Personal dotfiles managed with [GNU Stow](https://www.gnu.org/software/stow/).
 
 ## Setup on a new machine
 ```bash
-git clone https://github.com/<your-user>/dotfiles.git ~/dotfiles
-cd ~/dotfiles
+git clone https://github.com/mfontcada/dotfiles.git
+cd dotfiles
 stow -vt "$HOME" bash
 ```
 
