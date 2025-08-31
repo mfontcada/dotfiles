@@ -65,7 +65,7 @@
     },
     "custom/bluetooth-devices": {
       "format": " {} |",
-      "exec": "if [ -x \"$HOME/scripts/bt-devices.sh\" ]; then \"$HOME/scripts/bt-devices.sh\"; else echo \"bt-devices.sh missing\"; fi",
+      "exec": "if [ -x \"$HOME/main/repos/scripts/bt-devices.sh\" ]; then \"$HOME/main/repos/scripts/bt-devices.sh\"; else echo \"bt-devices.sh missing\"; fi",
       "interval": 5,
       "on-click": "blueberry",
       "tooltip": false
@@ -85,7 +85,7 @@
     },
     "custom/brightness": {
       "format": "  {}  ",
-      "exec": "if [ -x \"$HOME/scripts/brightness.sh\" ]; then \"$HOME/scripts/brightness.sh\"; else echo \"brightness.sh missing\"; fi",
+      "exec": "if [ -x \"$HOME/main/repos/scripts/brightness.sh\" ]; then \"$HOME/main/repos/scripts/brightness.sh\"; else echo \"brightness.sh missing\"; fi",
       "interval": 5,
       "on-click": "brightnessctl set 10%+",
       "on-click-right": "brightnessctl set 10%-",
@@ -152,7 +152,7 @@
     },
     "custom/sysinfo": {
       "format": "󰍛 {} |",
-      "exec": "if [ -x \"$HOME/scripts/sysinfo.sh\" ]; then \"$HOME/scripts/sysinfo.sh\"; else echo \"sysinfo.sh missing\"; fi",
+      "exec": "if [ -x \"$HOME/main/repos/scripts/sysinfo.sh\" ]; then \"$HOME/main/repos/scripts/sysinfo.sh\"; else echo \"sysinfo.sh missing\"; fi",
       "interval": 5,
       "tooltip": false,
       "on-click": "alacritty -e btop"
