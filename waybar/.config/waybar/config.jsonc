@@ -46,7 +46,7 @@
     "network": {
       "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
       "format" : "{icon} {ifname} |",
-      "format-wifi" : "{icon}  {essid} ({signalStrength}%) |",
+      "format-wifi" : "{icon}  {essid} ({signalStrength}%) ({ipaddr}) |",
       "format-ethernet" : "󰀂",
       "format-disconnected" : "󰖪  Not connected |",
       "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
